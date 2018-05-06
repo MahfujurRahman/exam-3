@@ -1,0 +1,106 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+a:hover { text-decoration: none }
+.section-padding{
+    background-image: url(../img/exam.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #000;
+    height: 100vh;
+    padding: 60px 0px;
+}
+
+html, body {
+    height: 100vh;
+  }
+  .logo {
+    max-width: 120px;
+    padding-left: 30px;
+  }
+  .contact {
+    font-size: 24px;
+    color: #000;
+    opacity: .5;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    display: block;
+  }
+  .contact:hover {
+    color: inherit;
+  }
+  .header-area {
+      margin-bottom: 50px;
+  }
+  
+.hero-area {
+    margin-top: 170px;
+    padding-left: 30px;
+  }
+  .hero-area h2 {
+    font-size: 56px;
+    font-weight: normal;
+    line-height: 65px;
+    padding-bottom: 30px;
+  }
+  .hero-area p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #887586;
+    padding-bottom: 50px;
+  }
+  .hero-area p a {
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+    opacity: .6;
+    padding-bottom: 50px;
+  }
+  .footer-area {
+    border-top: 1px solid #eaeaea;
+    padding: 20px;
+    margin-top: 100px;
+  }
+  .footer-area p {
+    font-size: 18px;
+    color: #818181;
+    line-height: 31px;
+  }
+  .footer-logo {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .footer-logo li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .footer-logo li a {
+    font-size: 30px;
+    color: #b2acb1;
+  }
