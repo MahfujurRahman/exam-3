@@ -31,36 +31,38 @@ a:hover { text-decoration: none }
     background-position: center;
     background-size: cover;
     background-color: #000;
-    height: 100vh;
+    height: 100%;
     padding: 60px 0px;
+    position: relative;
 }
 
 html, body {
-    height: 100vh;
+    height: 100%;
   }
   .logo {
     max-width: 120px;
-    padding-left: 30px;
   }
-  .contact {
-    font-size: 24px;
-    color: #000;
-    opacity: .5;
-    line-height: 30px;
-    padding-top: 30px;
-    padding-right: 30px;
-    display: block;
-  }
-  .contact:hover {
-    color: inherit;
-  }
+  
+.contact {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.contact li {
+  display: inline-block;
+  padding-left: 30px;
+}
+.contact li a {
+  font-size: 20px;
+  color: #000;
+}
   .header-area {
-      margin-bottom: 50px;
+      padding: 0px 80px;
   }
   
 .hero-area {
     margin-top: 170px;
-    padding-left: 30px;
+    padding-left: 80px;
   }
   .hero-area h2 {
     font-size: 56px;
@@ -80,11 +82,19 @@ html, body {
     color: #000;
     opacity: .6;
     padding-bottom: 50px;
+    transition: .3s;
   }
+  .hero-area p a:hover {
+    text-decoration: underline;
+}
   .footer-area {
     border-top: 1px solid #eaeaea;
-    padding: 20px;
+    padding: 20px 80px;
     margin-top: 100px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
   }
   .footer-area p {
     font-size: 18px;
@@ -103,4 +113,8 @@ html, body {
   .footer-logo li a {
     font-size: 30px;
     color: #b2acb1;
+    transition: .3s;
   }
+  .footer-logo li a:hover {
+    color: #000;
+}
